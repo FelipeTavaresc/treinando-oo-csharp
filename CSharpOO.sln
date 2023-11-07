@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpOO", "CSharpOO.csproj", "{EAC672D3-582B-44FB-8E90-9041F2B51DB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpOO", "CSharpOO.csproj", "{EAC672D3-582B-44FB-8E90-9041F2B51DB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex01", "Ex01", "{559B3DDB-EF96-49EF-BA1B-FA4F22FE00C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppEx01", "Ex01\ConsoleAppEx01\ConsoleAppEx01.csproj", "{2A04D111-C06F-4C8E-B3C4-7D81D0086B55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{EAC672D3-582B-44FB-8E90-9041F2B51DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAC672D3-582B-44FB-8E90-9041F2B51DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAC672D3-582B-44FB-8E90-9041F2B51DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A04D111-C06F-4C8E-B3C4-7D81D0086B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A04D111-C06F-4C8E-B3C4-7D81D0086B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A04D111-C06F-4C8E-B3C4-7D81D0086B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A04D111-C06F-4C8E-B3C4-7D81D0086B55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A04D111-C06F-4C8E-B3C4-7D81D0086B55} = {559B3DDB-EF96-49EF-BA1B-FA4F22FE00C8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0BD0554-8467-4249-884B-F680871AEF73}
