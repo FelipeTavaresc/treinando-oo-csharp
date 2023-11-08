@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex01", "Ex01", "{559B3DDB-E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppEx01", "Ex01\ConsoleAppEx01\ConsoleAppEx01.csproj", "{2A04D111-C06F-4C8E-B3C4-7D81D0086B55}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex02", "Ex02", "{0C04D229-30D7-4E65-8EF3-C4171B081E49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppEx02", "Ex02\ConsoleAppEx02\ConsoleAppEx02.csproj", "{2CF588D8-50B5-4471-AD32-480184E75225}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +27,17 @@ Global
 		{2A04D111-C06F-4C8E-B3C4-7D81D0086B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A04D111-C06F-4C8E-B3C4-7D81D0086B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A04D111-C06F-4C8E-B3C4-7D81D0086B55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF588D8-50B5-4471-AD32-480184E75225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF588D8-50B5-4471-AD32-480184E75225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF588D8-50B5-4471-AD32-480184E75225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF588D8-50B5-4471-AD32-480184E75225}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2A04D111-C06F-4C8E-B3C4-7D81D0086B55} = {559B3DDB-EF96-49EF-BA1B-FA4F22FE00C8}
+		{2CF588D8-50B5-4471-AD32-480184E75225} = {0C04D229-30D7-4E65-8EF3-C4171B081E49}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0BD0554-8467-4249-884B-F680871AEF73}
